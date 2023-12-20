@@ -13,12 +13,18 @@
   }
 }
 
+.navbar{
+  background: rgb(213,72,255);
+  background: linear-gradient(22deg, rgba(213,72,255,1) 0%, rgba(60,6,185,0.7455357142857143) 62%);
+}
+
 /* ============= NavLink active Start here ============== */
 nav .active li {
   color: black;
   font-weight: 600;
   text-decoration: 1px underline black;
 }
+
 
 @media screen and (max-width: 665px) {
   nav .active li {
