@@ -27,15 +27,15 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="w-full h-20 bg-white sticky top-0 z-50 border-b-[1px] border-b-gray-200 navbar">
+    <div className="w-full h-20 bg-white sticky top-0 z-50  navbar">
       <nav className="h-full px-4 max-w-container mx-auto relative">
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
-            <div>
-             <span className="text-4xl">
+            <div className="flex justify-start items-start">
+             <span className="text-4xl text-white font-[600]">
                 5
-                  <i>⭐ </i>
-              </span>  
+              </span>
+              <span className="text-base text-2xl">⭐ </span>  
             </div>
           </Link>
           <div>
@@ -50,7 +50,7 @@ const Header = () => {
                   {navBarList.map(({ _id, title, link }) => (
                     <NavLink
                       key={_id}
-                      className="flex font-normal hover:font-bold w-20 h-6 justify-center items-center px-12 text-base text-[#767676] hover:underline underline-offset-[4px] decoration-[1px] hover:text-[#262626] md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0"
+                      className="flex font-normal hover:font-bold w-20 h-6 justify-center items-center px-12 text-base text-white  decoration-[1px] hover:text-[#ffc83d] hoverEffect last:border-r-0"
                       to={link}
                       state={{ data: location.pathname.split("/")[1] }}
                     >
@@ -78,10 +78,10 @@ const Header = () => {
                       src={logoLight}
                       alt="logoLight"
                     />
-                    <ul className="text-gray-200 flex flex-col gap-2">
+                    <ul className="text-white flex flex-col gap-2">
                       {navBarList.map((item) => (
                         <li
-                          className="font-normal hover:font-bold items-center text-lg text-gray-200 hover:underline underline-offset-[4px] decoration-[1px] hover:text-white md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0"
+                          className="font-normal hover:font-bold items-center text-lg text-white hover:underline underline-offset-[4px] decoration-[1px] hover:text-white md:border-r-[2px]  hoverEffect last:border-r-0"
                           key={item._id}
                         >
                           <NavLink

@@ -20,9 +20,9 @@
 
 /* ============= NavLink active Start here ============== */
 nav .active li {
-  color: black;
+  color: #ffc83d;
   font-weight: 600;
-  text-decoration: 1px underline black;
+ 
 }
 
 
