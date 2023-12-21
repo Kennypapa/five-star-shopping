@@ -17,9 +17,14 @@
   background: rgb(213,72,255);
   background: linear-gradient(22deg, rgba(213,72,255,1) 0%, rgba(60,6,185,0.7455357142857143) 62%);
 }
+.s_navbar{
+  background: rgb(213,72,255);
+  background: linear-gradient(22deg, rgba(213,72,255,0.7343312324929971) 0%, rgba(60,6,185,0.4009978991596639) 89%);
+}
 
 /* ============= NavLink active Start here ============== */
 nav .active li {
+
   color: #ffc83d;
   font-weight: 600;
  

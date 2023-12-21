@@ -39,7 +39,7 @@ const HeaderBottom = () => {
   }, [searchQuery]);
 
   return (
-    <div className="w-full bg-[#F5F5F3] relative">
+    <div className="w-full bg-[#F5F5F3] relative ">
       <div className="max-w-container mx-auto">
         <Flex className="flex flex-col lg:flex-row items-start lg:items-center justify-between w-full px-4 pb-4 lg:pb-0 h-full lg:h-24">
           <div
@@ -55,26 +55,19 @@ const HeaderBottom = () => {
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="absolute top-36 z-50 bg-primeColor w-auto text-[#767676] h-auto p-4 pb-6"
+                className="absolute top-36 z-50 bg-[#F5F5F3]  w-auto text-[#33475b] h-auto p-4 pb-6"
               >
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
+                <li className="text-[#33475b] px-4 py-1 border-l-[1px] border-l-gray-400 hover:border-b-white  hover:font-[600] duration-300 cursor-pointer">
                   Accessories
                 </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Furniture
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
+               
+                <li className="text-[#33475b] px-4 py-1 border-l-[1px] border-l-gray-400 hover:border-b-white hover:font-[600] duration-300 cursor-pointer">
                   Electronics
                 </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Clothes
-                </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400  hover:border-b-white hover:text-white duration-300 cursor-pointer">
+                <li className="text-[#33475b] px-4 py-1 border-l-[1px] border-l-gray-400  hover:border-b-white hover:font-[600] duration-300 cursor-pointer">
                   Bags
                 </li>
-                <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400  hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                  Home appliances
-                </li>
+               
               </motion.ul>
             )}
           </div>
