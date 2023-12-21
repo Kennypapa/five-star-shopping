@@ -31,11 +31,10 @@ const Footer = () => {
     <div className="w-full bg-[#F5F5F3] py-20">
       <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-4 gap-10">
         <div className="col-span-2">
-          <FooterListTitle title=" More about Orebi Shop" />
+          <FooterListTitle title=" More about 5⭐" />
           <div className="flex flex-col gap-6">
-            <p className="text-base w-full xl:w-[80%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint
-              ab ullam, numquam nesciunt in.
+            <p className="text-base w-[80%] xl:w-[80%]">
+            Five-star-shopping: Your premier destination for a top-notch online shopping experience. Enjoy seamless navigation, secure transactions, and a curated selection of quality products. Elevate your shopping journey with us! ⭐🛍️ #FiveStarShopping
             </p>
             <ul className="flex items-center gap-2">
               <a
@@ -158,9 +157,8 @@ const Footer = () => {
             )}
 
             <Image
-              className={`w-[80%] lg:w-[60%] mx-auto ${
-                subscription ? "mt-2" : "mt-6"
-              }`}
+              className={`w-[80%] lg:w-[60%] mx-auto ${subscription ? "mt-2" : "mt-6"
+                }`}
               imgSrc={paymentCard}
             />
           </div>
