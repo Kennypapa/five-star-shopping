@@ -38,39 +38,39 @@ const Footer = () => {
             </p>
             <ul className="flex items-center gap-2">
               <a
-                href="https://www.youtube.com/@reactjsBD"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaYoutube />
+                <li className=" w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center  duration-300">
+                <i class="fa-brands fa-youtube text-2xl"></i>
                 </li>
               </a>
               <a
-                href="https://github.com/noorjsdivs"
+                href="#"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer"  
               >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaGithub />
+                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center  duration-300">
+                <i class="fa-brands fa-github text-2xl"></i>
                 </li>
               </a>
               <a
-                href="https://www.facebook.com/Noorlalu143/"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaFacebook />
+                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center  duration-300">
+                <i class="fa-brands fa-facebook text-2xl"></i>
                 </li>
               </a>
               <a
-                href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaLinkedin />
+                <li className=" w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer rounded-full flex justify-center items-center  duration-300">
+                <i class="fa-brands fa-linkedin text-2xl"></i>
                 </li>
               </a>
             </ul>
@@ -149,7 +149,7 @@ const Footer = () => {
                 </div>
                 <button
                   onClick={handleSubscription}
-                  className="bg-white text-lightText w-[30%] h-10 hover:bg-black hover:text-white duration-300 text-base tracking-wide"
+                  className="bg-white text-lightText w-[30%] h-10  hover:text-white duration-300 text-base tracking-wide"
                 >
                   Subscribe
                 </button>
